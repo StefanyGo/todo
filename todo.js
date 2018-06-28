@@ -55,6 +55,8 @@ class App {
         
         const taskList = document.querySelector('#taskList')
         taskList.appendChild(item)
+        f.reset()
+        f.taskName.focus()
     }
 }
 
