@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Raleway');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #ff7b25;
+    font-size: 2vw;
+    text-align: center;
+    background-image: url(flowerwatercolor.jpg);
+    background-repeat: repeat-y;
+    background-size:100% 400%;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+
+header {
+    background-image: url(flowers.png);
+    background-size:40% 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10vw;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    line-height: 2.5;
+    font-size: 3vw;
+    color:#d64161;
+    height: 10vw;
+    text-shadow: 1px 7px 7px #feb236,
+    1px 1px 20px #6b5b95;
+}
+
+
+.taskList {
+    text-align: center;
+}
+
+.taskName {
+  float: left;
+  color: #feb236;
+  font-size: 2vw;
+  width:50px;
+}
+
+.deadline {
+  display: inline-block;
+  color:  #6b5b95;
+  font-size: 2vw;
+  width:50px;
+}
+
+.completeButton {
+    float: right;
+    padding-left: 2;
+    width:50px;
+}
